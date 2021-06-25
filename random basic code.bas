@@ -1,4 +1,9 @@
 Main:
+	for b0 = 1 to 6
+		sound 4, (120,80)
+		sound 4, (122,50)
+		next b0
+Main2:
 	goto FirstCode
 	goto MoreCode
 	goto AlternateFlashing
